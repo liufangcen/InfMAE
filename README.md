@@ -3,8 +3,7 @@ Official PyTorch implementation of the paper entitled 'InfMAE: A Foundation Mode
 
 ## Dataset
 ### Inf30 dataset: 
-链接：https://pan.baidu.com/s/1XRoFd314I0K-L8ADb8KgPQ?pwd=InfD 
-提取码：InfD 
+
 
 ### Inf50 dataset:
 ing
