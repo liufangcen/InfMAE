@@ -20,3 +20,16 @@ Fangcen Liu
 QQ：835622020 wechat：Gimini_lfc
 
 email: 835622020@qq.com  or liufc67@gmail.com
+
+## Acknowledgment
+The pretraining of our project is based on MAE https://github.com/facebookresearch/mae and MCMAE https://github.com/Alpha-VL/ConvMAE.
+Thanks for their wonderful work.
+
+## License
+This code is only freely available for non-commercial research use. If you have other purpose, please contact:
+
+Chenqiang Gao
+
+Email: gaochq6@mail.sysu.edu.cn
+
+Copyright: Chongqing University of Posts and Telecommunications
