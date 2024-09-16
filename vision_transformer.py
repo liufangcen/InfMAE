@@ -253,8 +253,8 @@ class HybridEmbed(nn.Module):
         return x
 
 
-class InfViT(nn.Module):
-    """ Vision Transformer with support for patch or hybrid CNN input stage
+class ConvViT(nn.Module):
+    """ from mcmae：https://github.com/Alpha-VL/ConvMAE/tree/main
     """
     def __init__(self, img_size=224, patch_size=16, in_chans=3, num_classes=1000, embed_dim=768, depth=12,
                  num_heads=12, mlp_ratio=4., qkv_bias=False, qk_scale=None, drop_rate=0., attn_drop_rate=0.,
@@ -297,12 +297,7 @@ class InfViT(nn.Module):
 
 
         self.norm = norm_layer(embed_dim[-1])
-
-        # NOTE as per official impl, we could have a pre-logits representation dense layer + tanh here
-        #self.repr = nn.Linear(embed_dim, representation_size)
-        #self.repr_act = nn.Tanh()
-
-        # Classifier head
+        
         self.head = nn.Linear(embed_dim[-1], num_classes) if num_classes > 0 else nn.Identity()
 
         trunc_normal_(self.pos_embed, std=.02)
@@ -349,8 +344,6 @@ class InfViT(nn.Module):
         x = self.forward_features(x)
         x = self.head(x)
         return x
-
-
 
 
 
