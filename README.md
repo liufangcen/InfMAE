@@ -32,7 +32,7 @@ ing
 
 ## Pretrain on Inf30
 
-You can download the pre-trained checkpoint here.
+You can download the pre-trained checkpoint [here](https://pan.baidu.com/s/1xofov5UWARRPVHB6586E2w?pwd=Apth).
 
 ## Contact
 If you have any technical questions, please contact:
