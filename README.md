@@ -11,7 +11,7 @@ conda activate infmae
 
 ### Install Pytorch==1.8.0 and torchvision==0.9.0 with CUDA==11.1:
 ```bash
-onda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 ```
 
 ### Install timm==0.3.2:
