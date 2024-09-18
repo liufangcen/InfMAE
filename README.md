@@ -19,6 +19,11 @@ conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=11.1 -c pytorch -c c
 pip install timm==0.3.2
 ```
 
+### Pretrain on Inf30
+```bash
+python main_pretrain_infmae30.py --world_size 1 --local_rank 0 --rank 0
+```
+
 ## Dataset
 ### Inf30 dataset: 
 [Google Drive](https://drive.google.com/file/d/1joUmb9gXEI8wfy8YbOsfvH_CYkL7MAsF/view?usp=sharing),
